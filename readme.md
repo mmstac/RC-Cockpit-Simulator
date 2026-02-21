@@ -4,10 +4,11 @@ This project simulates a cockpit view with moving pilot arms and a cockpit dashb
 
 ![IMG20260213182014](https://github.com/user-attachments/assets/d1ccf526-c34a-40e3-9b84-aaa3c4a6a8fd)
 
-Here is a run of the ESP32 version. The cockpit was overlaid onto the flight video using green screen as that allowed the flight video quality to be maintained (filming the model in front of a screen was a little fuzzy) and only roll, pitch, and throttle are used.
+Here is a video of the ESP32 version. The cockpit was overlaid onto the flight video using green screen as that allowed the flight video quality to be maintained (filming the model in front of a screen was a little fuzzy) and only roll, pitch, and throttle are used.
 
-https://youtu.be/WE5VddACYq4
+[![RC Cockpit Simulator Demo](https://img.youtube.com/vi/WE5VddACYq4/0.jpg)](https://www.youtube.com/watch?v=WE5VddACYq4)
 
+[https://youtu.be/WE5VddACYq4](https://youtu.be/WE5VddACYq4)
 
 This repository includes two versions of the project:  
 1\. \*\*Version 1 (Current):\*\* ESP32 over WiFi (UDP) with a real-time HUD and VLC video synchronization.  
@@ -101,6 +102,8 @@ This older version streams telemetry data (RCcommand) from Python to a standard 
 4. `FILE_PATH`: Set this to the location of your flight log CSV file.
 
 Here is a run using the arduino version. This is the model filmed in front of a PC monitor.
+
+[![RC Cockpit Simulator Demo](https://img.youtube.com/vi/cBl0tHdTQ_Y/0.jpg)](https://www.youtube.com/watch?v=cBl0tHdTQ_Y)
 
 [https://youtu.be/cBl0tHdTQ\_Y](https://youtu.be/cBl0tHdTQ_Y)
 
