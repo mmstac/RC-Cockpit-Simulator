@@ -72,10 +72,12 @@ Run the Python script. It will parse the CSV, open a pygame window for the simul
 
 The flight telemetry is taken from a Betaflight Blackbox log. The log file (.bbl) needs to be converted to a (.csv) format which can be done using Blackbox explorer. The python script will then parse and resample the blackbox data down to 50hz for streaming. 50hz was selected as most servos support this refresh rate.  
 The data sampled:  
-	**RCcommand** : basically the stick controls. Roll, Pitch, Yaw are stored in a range of \-500 to 500, so 1500 is added to convert them to the 1000-2000 microsecond range recognized by servo PWM. The Throttle is already stored in this 1000-2000 range.  
+	**RCcommand** : basically the stick controls. 
+		Roll, Pitch, Yaw are stored in a range of \-500 to 500, so 1500 is added to convert them to the 1000-2000 microsecond range
+		recognized by servo PWM. The Throttle is already stored in this 1000-2000 range.  
 	**Gyro** : this is the gyro data in degrees/second. This is just used to drive the center HUD display.  
 	**Motors** : this is the motor output, also stored in the 1000-2000 range. This is just used for driving the HUD display.  
----
+
 
 ## **📦 The Binary Packet Structure**
 
