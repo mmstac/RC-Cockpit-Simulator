@@ -1,0 +1,17 @@
+# Ignore video files
+*.mp4
+*.mkv
+*.mov
+*.avi
+
+# Ignore large data logs
+*.csv
+*.xlsx
+
+# Ignore Arduino build folders
+build/
+libraries/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
